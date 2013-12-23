@@ -1,5 +1,14 @@
 # created with git log --stat=76 | fmt -sct -w80
 
+commit 7e36d930b5021a0f06a31854ac4efb171bb5ecd0
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:10:39 2013 -0700
+
+    add changelog
+
+ ChangeLog | 68 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 68 insertions(+)
+
 commit 6d29b12e1642b9a6cfae5a64fb9adc7ba1cdefb6
 Author: Brian Bidulock <bidulock@openss7.org>
 Date:   Mon Dec 23 13:08:36 2013 -0700

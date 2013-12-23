@@ -7,3 +7,4 @@ scripts/
 m4/
 _build/
 _install/
+*.sw[op]

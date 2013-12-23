@@ -1,7 +1,7 @@
 
 AC_PREREQ(2.69)
-AC_INIT([xde-theme-airforce],[1.1],[bugs@openss7.org],[xde-theme-airforce])
-AC_REVISION([1.1])
+AC_INIT([xde-theme-airforce],[1.1.1],[bugs@openss7.org],[xde-theme-airforce])
+AC_REVISION([1.1.1])
 
 AC_CONFIG_SRCDIR([configure.ac])
 AC_CONFIG_AUX_DIR([scripts])
@@ -104,6 +104,21 @@ pekwmdir='$(datadir)/pekwm'
 AC_SUBST([pekwmdir])
 pekwmthemesdir='$(pekwmdir)/themes'
 AC_SUBST([pekwmthemesdir])
+
+ctwmdir='$(datadir)/ctwm'
+AC_SUBST([ctwmdir])
+ctwmstylesdir='$(ctwmdir)/styles'
+AC_SUBST([ctwmstylesdir])
+
+vtwmdir='$(datadir)/vtwm'
+AC_SUBST([vtwmdir])
+vtwmstylesdir='$(vtwmdir)/styles'
+AC_SUBST([vtwmstylesdir])
+
+twmdir='$(datadir)/twm'
+AC_SUBST([twmdir])
+twmstylesdir='$(twmdir)/styles'
+AC_SUBST([twmstylesdir])
 
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
