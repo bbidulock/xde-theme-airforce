@@ -1,0 +1,79 @@
+
+ACLOCAL_AMFLAGS = -I m4
+AUTOMAKE_OPTIONS = nostdinc
+
+dist_xdetheme_DATA = \
+	theme/theme.ini
+
+dist_wmakertheme_DATA = \
+	theme/style
+
+dist_xdeimage_DATA = \
+	images/emeraldcoast.jpg \
+	images/fighterjets.jpg \
+	images/squad.jpg \
+	images/landing.jpg \
+	images/thunderbird.jpg \
+	images/overalaska.jpg
+
+EXTRA_DIST = \
+	images/bomber1.jpg \
+	images/bomber2.jpg \
+	images/bomber3.jpg \
+	images/bomber4.jpg \
+	images/bomber5.jpg \
+	images/bomber6.jpg \
+	images/C17_aircraft_alt.jpg \
+	images/climbing.jpg \
+	images/emeraldcoast.jpg \
+	images/f35bluesky1.jpg \
+	images/f35bluesky2.jpg \
+	images/f35bluesky3.jpg \
+	images/f35bluesky4.jpg \
+	images/fighter1.jpg \
+	images/fighterjets.jpg \
+	images/following.jpg \
+	images/jets_sunset.jpg \
+	images/landing.jpg \
+	images/monster.jpg \
+	images/overalaska.jpg \
+	images/squad.jpg \
+	images/sunset.jpg \
+	images/takeoff1.jpg \
+	images/takeoff2.jpg \
+	images/thunderbird.jpg \
+	images/tightformation.jpg \
+	images/warthogs.jpg
+
+install-data-hook:
+	mkdir -p $(DESTDIR)$(fluxboxstylesdir)
+	ln -s $(basestyle) $(DESTDIR)$(fluxboxstylesdir)/$(style)
+	mkdir -p $(DESTDIR)$(blackboxstylesdir)
+	ln -s $(basestyle) $(DESTDIR)$(blackboxstylesdir)/$(style)
+	mkdir -p $(DESTDIR)$(icewmthemesdir)
+	ln -s $(basestyle) $(DESTDIR)$(icewmthemesdir)/$(style)
+	mkdir -p $(DESTDIR)$(jwmthemesdir)
+	ln -s ../styles/$(basestyle) $(DESTDIR)$(jwmthemesdir)/$(style)
+	mkdir -p $(DESTDIR)$(pekwmthemesdir)
+	ln -s $(basestyle) $(DESTDIR)$(pekwmthemesdir)/$(style)
+	mkdir -p $(DESTDIR)$(themedir)
+	ln -s ../$(basestyle)/openbox-3 $(DESTDIR)$(themedir)/openbox-3
+	mkdir -p $(DESTDIR)$(themedir)
+	ln -s ../$(basestyle)/gtk-2.0 $(DESTDIR)$(themedir)/gtk-2.0
+	mkdir -p $(DESTDIR)$(wmakerthemedir)
+	mkdir -p $(DESTDIR)$(fluxboxbgdir)
+	mkdir -p $(DESTDIR)$(blackboxbgdir)
+	mkdir -p $(DESTDIR)$(wmakerbgdir)
+	mkdir -p $(DESTDIR)$(xdeimagedir)
+	for p in $(dist_xdeimage_DATA) ; do \
+		f=$$(basename $$p .jpg) ; \
+		install -m644 $(top_srcdir)/images/$$f.jpg $(DESTDIR)$(xdeimagedir)/$$f.jpg ; \
+		ln -s ../../../images/$(stylesubdir)/$$f.jpg $(DESTDIR)$(wmakerthemedir)/$$f.jpg ; \
+		ln -s ../../images/$(stylesubdir)/$$f.jpg $(DESTDIR)$(fluxboxbgdir)/$$f.jpg ; \
+		ln -s ../../images/$(stylesubdir)/$$f.jpg $(DESTDIR)$(blackboxbgdir)/$$f.jpg ; \
+		ln -s ../../images/$(stylesubdir)/$$f.jpg $(DESTDIR)$(wmakerbgdir)/$$f.jpg ; \
+	done
+	for f in $(baseprefix)back $(baseprefix)icon $(baseprefix)tbar $(baseprefix)tile ; do \
+		ln -s ../../../WindowMaker/Pixmaps/$$f.xpm $(DESTDIR)$(wmakerthemedir)/$$f.xpm ; \
+	done
+
