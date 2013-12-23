@@ -1,0 +1,68 @@
+# created with git log --stat=76 | fmt -sct -w80
+
+commit 6d29b12e1642b9a6cfae5a64fb9adc7ba1cdefb6
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:08:36 2013 -0700
+
+    release handling
+
+ autogen.sh   | 19 +++++++++++++++++++
+ configure.ac |  4 ++--
+ 2 files changed, 21 insertions(+), 2 deletions(-)
+
+commit 7c5e8bd306028aade56a4942bb31e19c31594b2e
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:05:20 2013 -0700
+
+    more ignores mainainter mode
+
+ .gitignore   |  2 ++
+ configure.ac | 10 +++++++++-
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+
+commit 0a1f631d8c64d09e3a61fc07264f6c0d7a057aa3
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:00:56 2013 -0700
+
+    initial commit
+
+ .gitignore                  |   7 +++
+ AUTHORS                     |   0
+ COPYING                     |  58 +++++++++++++++++++++++
+ ChangeLog                   |   0
+ Makefile.am                 |  79 +++++++++++++++++++++++++++++++
+ NEWS                        |   6 +++
+ README                      |   0
+ THANKS                      |   0
+ configure.ac                | 101 ++++++++++++++++++++++++++++++++++++++++
+ images/C17_aircraft_alt.jpg | Bin 0 -> 210235 bytes
+ images/bomber1.jpg          | Bin 0 -> 1047822 bytes
+ images/bomber2.jpg          | Bin 0 -> 605384 bytes
+ images/bomber3.jpg          | Bin 0 -> 764810 bytes
+ images/bomber4.jpg          | Bin 0 -> 1037346 bytes
+ images/bomber5.jpg          | Bin 0 -> 707490 bytes
+ images/bomber6.jpg          | Bin 0 -> 389123 bytes
+ images/climbing.jpg         | Bin 0 -> 234248 bytes
+ images/emeraldcoast.jpg     | Bin 0 -> 595299 bytes
+ images/f35bluesky1.jpg      | Bin 0 -> 328210 bytes
+ images/f35bluesky2.jpg      | Bin 0 -> 277549 bytes
+ images/f35bluesky3.jpg      | Bin 0 -> 232780 bytes
+ images/f35bluesky4.jpg      | Bin 0 -> 172484 bytes
+ images/fighter1.jpg         | Bin 0 -> 265681 bytes
+ images/fighterjets.jpg      | Bin 0 -> 290462 bytes
+ images/following.jpg        | Bin 0 -> 302860 bytes
+ images/jets_sunset.jpg      | Bin 0 -> 292264 bytes
+ images/landing.jpg          | Bin 0 -> 379999 bytes
+ images/monster.jpg          | Bin 0 -> 1012472 bytes
+ images/overalaska.jpg       | Bin 0 -> 551391 bytes
+ images/squad.jpg            | Bin 0 -> 823223 bytes
+ images/sunset.jpg           | Bin 0 -> 173555 bytes
+ images/takeoff1.jpg         | Bin 0 -> 239908 bytes
+ images/takeoff2.jpg         | Bin 0 -> 658135 bytes
+ images/thunderbird.jpg      | Bin 0 -> 669833 bytes
+ images/tightformation.jpg   | Bin 0 -> 398335 bytes
+ images/warthogs.jpg         | Bin 0 -> 469860 bytes
+ theme/gtkrc-2.0             |  27 +++++++++++
+ theme/style                 |  49 +++++++++++++++++++
+ theme/theme.ini             |  80 +++++++++++++++++++++++++++++++
+ 39 files changed, 407 insertions(+)
