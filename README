@@ -3,7 +3,7 @@ xde-theme-airforce -- read me first file.  2013-12-23
 xde-theme-airforce
 ==================
 
-Package xde-theme-airforce-1.1 was released under CCPL:cc-by-sa-3.0
+Package xde-theme-airforce-1.1 was released under CCPL:cc-by-nc-nd-3.0
 license 2013-12-23.
 
 This is a theme and a set of backgrounds for the XDE (X Desktop
@@ -31,9 +31,9 @@ When working from `git(1)', please see the `README-git' file.  An
 abbreviated installation proceedure that works for most applications
 appears below.
 
-This release is published under the CCPL:cc-by-sa-3.0 (primarily because
-the base styles used to develop these styles were licensed under this
-license).  Please see the license in the file `COPYING'.
+This release is published under the CCPL:cc-by-nc-nd-3.0 (primarily
+because the base styles used to develop these styles were licensed under
+this license).  Please see the license in the file `COPYING'.
 
 Quick Start:
 ------------
