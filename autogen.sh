@@ -14,6 +14,6 @@ if [ -z "$VERSION" ]; then
 fi
 
 sed -e "s:[[]xde-theme-airforce[]],[[][^]]*[]]:[xde-theme-airforce],[$VERSION]:
-	s:AC_REVISION([[][^]]*[]]):AC_REVISION([$VERSION]):" configure.in >configure.ac
+	s:AC_REVISION([[][^]]*[]]):AC_REVISION([$VERSION]):" configure.template >configure.ac
 
 autoreconf -fiv
