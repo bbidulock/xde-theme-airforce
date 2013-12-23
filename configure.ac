@@ -1,7 +1,7 @@
 
 AC_PREREQ(2.69)
-AC_INIT([xde-theme-airforce],[1.0],[bugs@openss7.org],[xde-theme-airforce])
-AC_REVISION([1.0])
+AC_INIT([xde-theme-airforce],[1.1],[bugs@openss7.org],[xde-theme-airforce])
+AC_REVISION([1.1])
 
 AC_CONFIG_SRCDIR([configure.ac])
 AC_CONFIG_AUX_DIR([scripts])
