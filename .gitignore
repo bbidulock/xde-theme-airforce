@@ -10,3 +10,6 @@ m4/
 _build/
 _install/
 *.sw[op]
+config.log
+config.status
+Makefile

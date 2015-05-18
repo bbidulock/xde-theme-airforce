@@ -26,24 +26,39 @@ EXTRA_DIST = \
 	images/C17_aircraft_alt.jpg \
 	images/climbing.jpg \
 	images/emeraldcoast.jpg \
+	images/f16_training.jpg \
+	images/f22_missle_shower.jpg \
+	images/f22_wing_formation.jpg \
 	images/f35bluesky1.jpg \
 	images/f35bluesky2.jpg \
 	images/f35bluesky3.jpg \
 	images/f35bluesky4.jpg \
+	images/f35_cockpit.jpg \
+	images/f35_crater.jpg \
 	images/fighter1.jpg \
 	images/fighterjets.jpg \
 	images/following.jpg \
+	images/hercules_field.jpg \
+	images/hercules_taxi.jpg \
 	images/jets_sunset.jpg \
 	images/landing.jpg \
+	images/mig35_roll.jpg \
+	images/mig_banking.jpg \
 	images/monster.jpg \
 	images/overalaska.jpg \
 	images/squad.jpg \
+	images/stratotanker_escort.jpg \
 	images/sunset.jpg \
 	images/takeoff1.jpg \
 	images/takeoff2.jpg \
 	images/thunderbird.jpg \
 	images/tightformation.jpg \
+	images/transports_formation.jpg \
+	images/transports_takeoff.jpg \
+	images/warthog_runway.jpg \
 	images/warthogs.jpg
+
+
 
 install-data-hook:
 	$(MKDIR_P) $(DESTDIR)$(adwmstylesdir)
