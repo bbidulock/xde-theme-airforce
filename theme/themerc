@@ -5,12 +5,20 @@ XDE-Theme*WallpaperDefault:		emeraldcoast
 XDE-Theme*WallpaperRepeat:		true
 
 XDE-Theme*Wallpaper0:			emeraldcoast
-XDE-Theme*Wallpaper1:			squad
-XDE-Theme*Wallpaper2:			thunderbird
-XDE-Theme*Wallpaper3:			overalaska
+XDE-Theme*Wallpaper1:			f22_missle_shower
+XDE-Theme*Wallpaper2:			f22_wing_formation
+XDE-Theme*Wallpaper3:			f35_cockpit
+XDE-Theme*Wallpaper4:			f35_crater
+XDE-Theme*Wallpaper5:			fighterjets
+XDE-Theme*Wallpaper6:			following
+XDE-Theme*Wallpaper7:			landing
+XDE-Theme*Wallpaper8:			mig_banking
+XDE-Theme*Wallpaper9:			overalaska
+XDE-Theme*Wallpaper10:			squad
+XDE-Theme*Wallpaper11:			thunderbird
 
-XDE-Theme*Workspaces:			6
-XDE-Theme*WorkspaceNames:		\ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 
+XDE-Theme*Workspaces:			12
+XDE-Theme*WorkspaceNames:		\ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 
 
 XDE-Theme*WorkspaceColor:		rgb:00/20/40
 XDE-Theme*WorkspaceCenter:		0
@@ -20,26 +28,32 @@ XDE-Theme*WorkspaceFull:		1
 XDE-Theme*WorkspaceImage:		airforce/emeraldcoast.jpg
 
 XDE-Theme*Workspace0Image:		airforce/emeraldcoast.jpg
-XDE-Theme*Workspace1Image:		airforce/fighterjets.jpg
-XDE-Theme*Workspace2Image:		airforce/squad.jpg
-XDE-Theme*Workspace3Image:		airforce/landing.jpg
-XDE-Theme*Workspace4Image:		airforce/thunderbird.jpg
-XDE-Theme*Workspace5Image:		airforce/overalaska.jpg
+XDE-Theme*Workspace1Image:		airforce/f22_missle_shower.jpg
+XDE-Theme*Workspace2Image:		airforce/f22_wing_formation.jpg
+XDE-Theme*Workspace3Image:		airforce/f35_cockpit.jpg
+XDE-Theme*Workspace4Image:		airforce/f35_crater.jpg
+XDE-Theme*Workspace5Image:		airforce/fighterjets.jpg
+XDE-Theme*Workspace6Image:		airforce/following.jpg
+XDE-Theme*Workspace7Image:		airforce/landing.jpg
+XDE-Theme*Workspace8Image:		airforce/mig_banking.jpg
+XDE-Theme*Workspace9Image:		airforce/overalaska.jpg
+XDE-Theme*Workspace10Image:		airforce/squad.jpg
+XDE-Theme*Workspace11Image:		airforce/thunderbird.jpg
 
-XDE-Theme.blackbox.WorkspaceNames:	Workspace 1,Workspace 2,Workpsace 3,Workspace 4,Workspace 5,Workspace 6,Workspace 7,Workspace 8,Workspace 9
+XDE-Theme.blackbox.WorkspaceNames:	Workspace 1,Workspace 2,Workpsace 3,Workspace 4,Workspace 5,Workspace 6,Workspace 7,Workspace 8,Workspace 9,Workspace 10,Workspace 11,Workspace 12
 
-XDE-Theme.openxbox.WorkspaceNames:	1,2,3,4,5,6,7,8,9
+XDE-Theme.openxbox.WorkspaceNames:	1,2,3,4,5,6,7,8,9,10,11,12
 
-XDE-Theme.icewm.WorkspaceNames:		\ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 
+XDE-Theme.icewm.WorkspaceNames:		\ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 
 
-XDE-Theme.jwm.WorkspaceNames:		1,2,3,4,5,6,7,8,9
+XDE-Theme.jwm.WorkspaceNames:		1,2,3,4,5,6,7,8,9,10,11,12
 
-XDE-Theme.ctwm.WorkspaceNames:		1,2,3,4,5,6,7,8,9
+XDE-Theme.ctwm.WorkspaceNames:		1,2,3,4,5,6,7,8,9,10,11,12
 
-XDE-Theme.vtwm.WorkspaceNames:		1,2,3,4,5,6,7,8,9
+XDE-Theme.vtwm.WorkspaceNames:		1,2,3,4,5,6,7,8,9,10,11,12
 
 XDE-Theme.twm.Workspaces:		1
-XDE-Theme.twm.WorkspaceNames:		1,2,3,4,5,6,7,8,9
+XDE-Theme.twm.WorkspaceNames:		1,2,3,4,5,6,7,8,9,10,11,12
 
 XSettings*gtk-button-images:			1
 !XSettings*gtk-color-scheme:			

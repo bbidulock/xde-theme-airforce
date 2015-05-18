@@ -33,17 +33,17 @@
   SwitchPanelImages = (sgtile.xpm, sgback.xpm, 30, 40);
   WorkspaceSpecificBack = (
     (spixmap, "emeraldcoast.jpg", "#617953"),
+    (spixmap, "f22_missle_shower.jpg", "#617953"),
+    (spixmap, "f22_wing_formation.jpg", "#617953"),
+    (spixmap, "f35_cockpit.jpg", "#617953"),
+    (spixmap, "f35_crater.jpg", "#617953"),
     (spixmap, "fighterjets.jpg", "#617953"),
-    (spixmap, "squad.jpg", "#617953"),
+    (spixmap, "following.jpg", "#617953"),
     (spixmap, "landing.jpg", "#617953"),
-    (spixmap, "thunderbird.jpg", "#617953"),
+    (spixmap, "mig_banking.jpg", "#617953"),
     (spixmap, "overalaska.jpg", "#617953"),
-    (spixmap, "emeraldcoast.jpg", "#617953"),
-    (spixmap, "fighterjets.jpg", "#617953"),
     (spixmap, "squad.jpg", "#617953"),
-    (spixmap, "landing.jpg", "#617953"),
-    (spixmap, "thunderbird.jpg", "#617953"),
-    (spixmap, "overalaska.jpg", "#617953")
+    (spixmap, "thunderbird.jpg", "#617953")
   );
   WorkspaceBack = (spixmap, "emeraldcoast.jpg", "#617953");
 }
