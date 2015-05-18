@@ -10,11 +10,17 @@ dist_wmakertheme_DATA = \
 
 dist_xdeimage_DATA = \
 	images/emeraldcoast.jpg \
+	images/f22_missle_shower.jpg \
+	images/f22_wing_formation.jpg \
+	images/f35_cockpit.jpg \
+	images/f35_crater.jpg \
 	images/fighterjets.jpg \
-	images/squad.jpg \
+	images/following.jpg \
 	images/landing.jpg \
-	images/thunderbird.jpg \
-	images/overalaska.jpg
+	images/mig_banking.jpg \
+	images/overalaska.jpg \
+	images/squad.jpg \
+	images/thunderbird.jpg
 
 EXTRA_DIST = \
 	images/bomber1.jpg \
