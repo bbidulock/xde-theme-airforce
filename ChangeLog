@@ -1,0 +1,248 @@
+# created with git log --stat=76 -M -C -500|fmt -sct -w80
+
+commit e8f9e279c1ab404f295db798fcccca258f201aff
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 6 23:44:47 2021 -0700
+
+    redo build
+
+ Makefile.am              |  91 +++++++++++++++++++++++++++-
+ README                   |  98 +++++++++++++++++++-----------
+ README.md.in             | 110 ++++++++++++++++++++++++++++++++++
+ RELEASE.md               |  19 ++++++
+ TODO                     |  10 ++++
+ autogen.sh               |  49 +++++++++++----
+ configure.sh             |  44 ++++++++++++++
+ configure.template       | 138 -------------------------------------------
+ dist.sh                  |   9 +++
+ gennews.sh               |  50 ++++++++++++++++
+ rebuild.sh               |  11 ++++
+ theme/adwm/themerc       |  74 +++++++++++++++++++++++
+ theme/{ => wmaker}/style |   0
+ 13 files changed, 516 insertions(+), 187 deletions(-)
+
+commit 7defc67a46efb1979b6918b9a909c437f0768009
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon May 18 05:10:33 2015 -0600
+
+    add a full 12 workspaces to the airforce theme
+
+ theme/style     | 14 +++++++-------
+ theme/theme.ini | 50 ++++++++++++++++++++++++++++++++------------------
+ theme/themerc   | 48 +++++++++++++++++++++++++++++++-----------------
+ 3 files changed, 70 insertions(+), 42 deletions(-)
+
+commit 8e01e9f34445885fd9df17bd0072a2ffa8f3f54e
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon May 18 04:47:01 2015 -0600
+
+    add a few more images to package
+
+ Makefile.am | 12 +++++++++---
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+
+commit 300278a67909d5a3987d7a51811e3c12597f366c
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon May 18 04:39:20 2015 -0600
+
+    added some airforce images
+
+ .gitignore                      |   3 +++
+ Makefile.am                     |  15 +++++++++++++++
+ images/f16_training.jpg         | Bin 0 -> 171273 bytes
+ images/f22_missle_shower.jpg    | Bin 0 -> 274143 bytes
+ images/f22_wing_formation.jpg   | Bin 0 -> 124686 bytes
+ images/f35_cockpit.jpg          | Bin 0 -> 220921 bytes
+ images/f35_crater.jpg           | Bin 0 -> 183494 bytes
+ images/hercules_field.jpg       | Bin 0 -> 156168 bytes
+ images/hercules_taxi.jpg        | Bin 0 -> 220142 bytes
+ images/mig35_roll.jpg           | Bin 0 -> 121745 bytes
+ images/mig_banking.jpg          | Bin 0 -> 121798 bytes
+ images/stratotanker_escort.jpg  | Bin 0 -> 220049 bytes
+ images/transports_formation.jpg | Bin 0 -> 66794 bytes
+ images/transports_takeoff.jpg   | Bin 0 -> 137904 bytes
+ images/warthog_runway.jpg       | Bin 0 -> 144828 bytes
+ 15 files changed, 18 insertions(+)
+
+commit 3aaf4cdec5243c0c9a4c34057954683cc34e3407
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Fri Sep 12 15:37:24 2014 -0600
+
+    add adwm style
+
+ Makefile.am        | 34 ++++++++++++++++++----------------
+ configure.template |  6 ++++++
+ 2 files changed, 24 insertions(+), 16 deletions(-)
+
+commit 1906b84cce2e0cd6cab3c8c7636b8fd3bfc0f148
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun Aug 17 17:10:34 2014 -0600
+
+    add themerc file
+
+ theme/themerc | 78 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 78 insertions(+)
+
+commit 5b6d129869517c91f1aacab0757cc84129e72e94
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun Aug 17 17:10:06 2014 -0600
+
+    add themerc file
+
+ Makefile.am | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 3027e4c2af127373dafa3f7f9ce8337118b5e591
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat Jan 25 05:09:32 2014 -0700
+
+    added waimea support
+
+ Makefile.am        | 32 +++++++++++++++++---------------
+ NEWS               |  2 +-
+ autogen.sh         |  4 ++--
+ configure.template |  6 ++++++
+ theme/theme.ini    |  2 ++
+ 5 files changed, 28 insertions(+), 18 deletions(-)
+
+commit ecc68d7345f8f1726678b88a2afaf4520aedfefe
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 14:05:39 2013 -0700
+
+    do not need m4 directory
+
+ Makefile.am | 1 -
+ README      | 8 ++++----
+ 2 files changed, 4 insertions(+), 5 deletions(-)
+
+commit 18abf00fbd633bbd13c4577ec7c158ee47f60309
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:44:48 2013 -0700
+
+    added some release files
+
+ AUTHORS |  3 +++
+ NEWS    |  4 ++++
+ README  | 65 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ THANKS  |  3 +++
+ 4 files changed, 75 insertions(+)
+
+commit ca6559cc070de1b0475936649b6af1d0acb72a49
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:31:46 2013 -0700
+
+    autoconf hates that
+
+ autogen.sh                         | 2 +-
+ configure.in => configure.template | 6 ++++--
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+
+commit 2af6980cfe315487fc8b014317b6480b72bdd720
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:27:52 2013 -0700
+
+    avoid excessive git commits
+
+ .gitignore                   | 1 +
+ autogen.sh                   | 4 ++--
+ configure.ac => configure.in | 0
+ 3 files changed, 3 insertions(+), 2 deletions(-)
+
+commit af18e1c472bbfc646024ce846b3f8dcf49c6506a
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:25:25 2013 -0700
+
+    remove changelog, it will be created
+
+ .gitignore |  1 +
+ ChangeLog  | 77 ----------------------------------------------------------
+ 2 files changed, 1 insertion(+), 77 deletions(-)
+
+commit 252fe6a4db87716ad7b6a35add8635c9941526c6
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:23:17 2013 -0700
+
+    add ctwm, vtwm and twm
+
+ .gitignore      |  1 +
+ ChangeLog       |  9 +++++++++
+ Makefile.am     |  6 ++++++
+ configure.ac    | 19 +++++++++++++++++--
+ theme/theme.ini |  8 ++++++++
+ 5 files changed, 41 insertions(+), 2 deletions(-)
+
+commit 7e36d930b5021a0f06a31854ac4efb171bb5ecd0
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:10:39 2013 -0700
+
+    add changelog
+
+ ChangeLog | 68 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 68 insertions(+)
+
+commit 6d29b12e1642b9a6cfae5a64fb9adc7ba1cdefb6
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:08:36 2013 -0700
+
+    release handling
+
+ autogen.sh   | 19 +++++++++++++++++++
+ configure.ac |  4 ++--
+ 2 files changed, 21 insertions(+), 2 deletions(-)
+
+commit 7c5e8bd306028aade56a4942bb31e19c31594b2e
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:05:20 2013 -0700
+
+    more ignores mainainter mode
+
+ .gitignore   |  2 ++
+ configure.ac | 10 +++++++++-
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+
+commit 0a1f631d8c64d09e3a61fc07264f6c0d7a057aa3
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 13:00:56 2013 -0700
+
+    initial commit
+
+ .gitignore                  |   7 +++
+ AUTHORS                     |   0
+ COPYING                     |  58 +++++++++++++++++++++++
+ ChangeLog                   |   0
+ Makefile.am                 |  79 +++++++++++++++++++++++++++++++
+ NEWS                        |   6 +++
+ README                      |   0
+ THANKS                      |   0
+ configure.ac                | 101 ++++++++++++++++++++++++++++++++++++++++
+ images/C17_aircraft_alt.jpg | Bin 0 -> 210235 bytes
+ images/bomber1.jpg          | Bin 0 -> 1047822 bytes
+ images/bomber2.jpg          | Bin 0 -> 605384 bytes
+ images/bomber3.jpg          | Bin 0 -> 764810 bytes
+ images/bomber4.jpg          | Bin 0 -> 1037346 bytes
+ images/bomber5.jpg          | Bin 0 -> 707490 bytes
+ images/bomber6.jpg          | Bin 0 -> 389123 bytes
+ images/climbing.jpg         | Bin 0 -> 234248 bytes
+ images/emeraldcoast.jpg     | Bin 0 -> 595299 bytes
+ images/f35bluesky1.jpg      | Bin 0 -> 328210 bytes
+ images/f35bluesky2.jpg      | Bin 0 -> 277549 bytes
+ images/f35bluesky3.jpg      | Bin 0 -> 232780 bytes
+ images/f35bluesky4.jpg      | Bin 0 -> 172484 bytes
+ images/fighter1.jpg         | Bin 0 -> 265681 bytes
+ images/fighterjets.jpg      | Bin 0 -> 290462 bytes
+ images/following.jpg        | Bin 0 -> 302860 bytes
+ images/jets_sunset.jpg      | Bin 0 -> 292264 bytes
+ images/landing.jpg          | Bin 0 -> 379999 bytes
+ images/monster.jpg          | Bin 0 -> 1012472 bytes
+ images/overalaska.jpg       | Bin 0 -> 551391 bytes
+ images/squad.jpg            | Bin 0 -> 823223 bytes
+ images/sunset.jpg           | Bin 0 -> 173555 bytes
+ images/takeoff1.jpg         | Bin 0 -> 239908 bytes
+ images/takeoff2.jpg         | Bin 0 -> 658135 bytes
+ images/thunderbird.jpg      | Bin 0 -> 669833 bytes
+ images/tightformation.jpg   | Bin 0 -> 398335 bytes
+ images/warthogs.jpg         | Bin 0 -> 469860 bytes
+ theme/gtkrc-2.0             |  27 +++++++++++
+ theme/style                 |  49 +++++++++++++++++++
+ theme/theme.ini             |  80 +++++++++++++++++++++++++++++++
+ 39 files changed, 407 insertions(+)

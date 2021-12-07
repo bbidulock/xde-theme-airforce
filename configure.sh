@@ -33,12 +33,10 @@ esac
 
 ./configure \
 	--enable-maintainer-mode \
-	--enable-dependency-tracking \
 	CPPFLAGS="$CPPFLAGS" \
 	CFLAGS="$DEBUG_CFLAGS -Wall -Wextra -Werror -Wno-deprecated-declarations $CFLAGS" \
 	CXXFLAGS="$DEBUG_CXXFLAGS -Wall -Wextra -Werror -Wno-deprecated-declarations $CXXFLAGS" \
 	LDFLAGS="$LDFLAGS" \
 	DEBUG_CFLAGS="$DEBUG_CFLAGS" \
-	DEBUG_CXXFLAGS="$DEBUG_CXXFLAGS" \
-	--disable-xxf86misc
+	DEBUG_CXXFLAGS="$DEBUG_CXXFLAGS"
 

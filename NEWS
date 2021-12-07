@@ -1,10 +1,35 @@
-Major changes for release 1.1:
-------------------------------
+xde-theme-airforce -- history of user-visible changes.  2021-12-06
 
-Added CTWM, VTWM and TWM support.
+Release xde-theme-airforce-1.1.15 released 2021-12-06
+-----------------------------------------------------
 
-Major changes for release 1.0:
-------------------------------
+git shortlog -e -n -w80,6,8 1.1...HEAD
 
-Initial release of this package.
+Brian Bidulock <bidulock@openss7.org> (15):
+      add changelog
+      add ctwm, vtwm and twm
+      remove changelog, it will be created
+      avoid excessive git commits
+      autoconf hates that
+      added some release files
+      do not need m4 directory
+      added waimea support
+      add themerc file
+      add themerc file
+      add adwm style
+      added some airforce images
+      add a few more images to package
+      add a full 12 workspaces to the airforce theme
+      redo build
+
+
+Release xde-theme-airforce-1.1 released 2013-12-23
+--------------------------------------------------
+
+git shortlog -e -n -w80,6,8 1.1
+
+Brian Bidulock <bidulock@openss7.org> (3):
+      initial commit
+      more ignores mainainter mode
+      release handling
 

@@ -1,3 +1,6 @@
+---
+layout: default
+---
 [xde-theme-airforce -- read me first file.  2021-12-06]: #
 
 xde-theme-airforce
