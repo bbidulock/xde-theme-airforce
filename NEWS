@@ -21,7 +21,7 @@ git tag -n100 -l 1.2
 
 git shortlog -e -n -w80,6,8 1.1...1.2
 
-Brian Bidulock <bidulock@openss7.org> (16):
+Brian Bidulock <bidulock@openss7.org> (17):
       add changelog
       add ctwm, vtwm and twm
       remove changelog, it will be created
@@ -38,6 +38,7 @@ Brian Bidulock <bidulock@openss7.org> (16):
       add a full 12 workspaces to the airforce theme
       redo build
       build out build and README
+      update release files
 
 
 Release xde-theme-airforce-1.1 released 2013-12-23
