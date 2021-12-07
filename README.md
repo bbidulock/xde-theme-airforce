@@ -3,7 +3,7 @@
 xde-theme-airforce
 ===============
 
-Package `xde-theme-airforce-1.1.15` was released under CCPL:cc-by-nc-nd-3.0
+Package `xde-theme-airforce-1.2` was released under CCPL:cc-by-nc-nd-3.0
 license 2021-12-06.
 
 This is a theme and a set of backgrounds for the _XDE (X Desktop
@@ -18,7 +18,7 @@ The source for `xde-theme-airforce` is hosted on [GitHub][1].
 Release
 -------
 
-This is the `xde-theme-airforce-1.1.15` package, released 2021-12-06.
+This is the `xde-theme-airforce-1.2` package, released 2021-12-06.
 This release, and the latest version, can be obtained from [GitHub][1],
 using a command such as:
 
@@ -96,14 +96,14 @@ Following are the twelve wallpapers included in the theme:
 
 [1]: https://github.com/bbidulock/xde-theme-airforce
 [2]: https://github.com/bbidulock/xde-theme-airforce/issues
-[3]: https://github.com/bbidulock/xde-theme-airforce/blob/master/RELEASE
-[4]: https://github.com/bbidulock/xde-theme-airforce/blob/master/NEWS
-[5]: https://github.com/bbidulock/xde-theme-airforce/blob/master/ChangeLog
-[6]: https://github.com/bbidulock/xde-theme-airforce/blob/master/TODO
-[7]: https://github.com/bbidulock/xde-theme-airforce/blob/master/COMPLIANCE
-[8]: https://github.com/bbidulock/xde-theme-airforce/blob/master/INSTALL
-[9]: https://github.com/bbidulock/xde-theme-airforce/blob/master/LICENSE
-[10]: https://github.com/bbidulock/xde-theme-airforce/blob/master/COPYING
+[3]: https://github.com/bbidulock/xde-theme-airforce/blob/1.2/RELEASE
+[4]: https://github.com/bbidulock/xde-theme-airforce/blob/1.2/NEWS
+[5]: https://github.com/bbidulock/xde-theme-airforce/blob/1.2/ChangeLog
+[6]: https://github.com/bbidulock/xde-theme-airforce/blob/1.2/TODO
+[7]: https://github.com/bbidulock/xde-theme-airforce/blob/1.2/COMPLIANCE
+[8]: https://github.com/bbidulock/xde-theme-airforce/blob/1.2/INSTALL
+[9]: https://github.com/bbidulock/xde-theme-airforce/blob/1.2/LICENSE
+[10]: https://github.com/bbidulock/xde-theme-airforce/blob/1.2/COPYING
 [11]: https://github.com/bbidulock/xde-styles
 [12]: https://github.com/bbidulock/xde-ctools
 
