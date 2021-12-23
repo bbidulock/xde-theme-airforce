@@ -38,4 +38,5 @@ stamp-h*
 *.tar.*
 *.tmp
 .jekyll-cache/
+.jekyll-metadata
 _site/
