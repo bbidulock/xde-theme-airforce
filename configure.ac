@@ -2,8 +2,8 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.69)
-AC_INIT([xde-theme-airforce],[1.2],[https://github.com/bbidulock/xde-theme-airforce],[xde-theme-airforce],[https://github.com/bbidulock/xde-theme-airforce/issues])
-AC_REVISION([1.2])
+AC_INIT([xde-theme-airforce],[1.2.4],[https://github.com/bbidulock/xde-theme-airforce],[xde-theme-airforce],[https://github.com/bbidulock/xde-theme-airforce/issues])
+AC_REVISION([1.2.4])
 
 # set better defaults
 AC_PREFIX_DEFAULT([/usr])
@@ -16,13 +16,13 @@ fi
 AC_CONFIG_SRCDIR([configure.ac])
 AC_CONFIG_AUX_DIR([scripts])
 
-DATE='2021-12-06'
+DATE='2021-12-23'
 AC_SUBST([DATE])
 
-MDOCDATE='December 6, 2021'
+MDOCDATE='December 23, 2021'
 AC_SUBST([MDOCDATE])
 
-BRANCH='1.2'
+BRANCH='1.2.4'
 AC_SUBST([BRANCH])
 
 # Initialize Automake

@@ -1,5 +1,49 @@
 # created with git log --stat=76 -M -C -500|fmt -sct -w80
 
+commit d8755030dc244d6af3548d11b22e8990e5214cf9
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Thu Dec 23 13:57:09 2021 -0700
+
+    add ignores
+
+ .gitignore | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit d161ea7fecf4a6dbca6bdd7edaf5332e4eea25aa
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Wed Dec 8 23:33:03 2021 -0700
+
+    show additional wallpapers
+
+ README       | 34 ++++++++++++++++++++++++++++++++++
+ README.md    | 32 ++++++++++++++++++++++++++++++++
+ README.md.in | 32 ++++++++++++++++++++++++++++++++
+ index.md     | 32 ++++++++++++++++++++++++++++++++
+ 4 files changed, 130 insertions(+)
+
+commit 2968db0efd35b9e890f8ae1329c492a34a0cef42
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Wed Dec 8 12:03:13 2021 -0700
+
+    add screenshot
+
+ README         |   6 ++++++
+ README.md      |   6 ++++++
+ README.md.in   |   6 ++++++
+ index.md       |   6 ++++++
+ scrot/adwm.jpg | Bin 0 -> 193350 bytes
+ 5 files changed, 24 insertions(+)
+
+commit b5fe286d1e48653bfea215f7e2272d80707e5b7e
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 6 23:58:23 2021 -0700
+
+    post-release update
+
+ ChangeLog | 14 ++++++++++++++
+ NEWS      |  3 ++-
+ 2 files changed, 16 insertions(+), 1 deletion(-)
+
 commit 50bacf81965b183f5c2593c4a76c6493d1c850bc
 Author: Brian Bidulock <bidulock@openss7.org>
 Date:   Mon Dec 6 23:57:37 2021 -0700
